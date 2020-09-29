@@ -128,7 +128,12 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-          "options": {}
+          "options": {
+            "baseHref": "https://Bobbypip.github.io/map-test/",
+            "repo": "https://github.com/Bobbypip/map-test.git",
+            "name": "Bobbypip",
+            "email": "roroal314@gmail.com"
+          }
         }
       }
     }
