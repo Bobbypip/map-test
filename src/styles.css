@@ -1,15 +1,16 @@
 .map-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    width: auto;
+    height: 500px;
     margin: 30px;
   }
   
   .map-frame {
     border: 2px solid black;
     height: 100%;
+  }
+
+  .marginB{
+    margin-bottom: 10px;
   }
   
   #map {
